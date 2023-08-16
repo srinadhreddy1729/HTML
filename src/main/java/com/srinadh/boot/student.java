@@ -11,7 +11,7 @@ public class student {
 	@Id
 	private int id;
 	private String name;
-	@DateTimeFormat(pattern="yyyy-MM-dd")
+	@DateTimeFormat(pattern="yyyy-mm-dd")
 	private Date date;
 	public int getId() {
 		return id;
